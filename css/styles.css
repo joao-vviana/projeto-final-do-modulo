@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sobre {
+    font-family:'Lobster', cursive; 
+    text-decoration: none;
+    color: #4169E1;
+    margin: 8px;
+    padding-top: 50px;
+}
+.sobre:hover {
+    color: white;
+}
+
+.conhecimentos {
+    font-family:'Lobster', cursive;
+    text-decoration: none;
+    color: #4169E1;
+    margin: 8px;
+    padding-top: 20px;
+}
+
+.conhecimentos:hover {
+    color: white;
+}
+
+.objetivos {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: #4169E1;
+    margin: 8px;
+    padding-top: 20px;
+}
+
+.objetivos:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagem-avatar {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 3px solid;
+}
+
+.esquerda {
+    padding: 20px;
+    height: 100vh;
+    background-color: #87CEFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+}
+
+.titulo {
+    font-family: 'Lobster', cursive;
+    padding-bottom: 20px;
+    font-size: 75px;
+}
+
+.direita {
+    padding-left: 60px;
+    width: 100vw;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border: 5px solid;
+}
+
+.dados-pessoais {
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.icones {
+    margin-top: 20px;
+}
+
+.icon-linkedin {
+    color: black;
+    margin-right: 50px;
+}
+
+.icon-linkedin:hover {
+    color:#4169E1;
+}
+
+.icon-github {
+    color: black;
+    margin-right: 50px;
+}
+
+.icon-github:hover {
+    color: #4169E1;
+}
+
+.icon-instagram {
+    color: black;
+}
+
+.icon-instagram:hover {
+    color: #4169E1;
+}
+
+.email {
+    color:#4169E1;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: black;
+}
+
+.lista-ordenada {
+    margin-left: 50px;
+}
+
+.lista-nao-ordenada {
+    margin-left: 50px ;
+}
+
